@@ -1,0 +1,67 @@
+ .logo {
+ font-family: 'Product Sans', sans-serif;
+            font-size: 85px;
+            font-weight: 700;
+            margin-bottom: 200px;
+            color:aqua;
+            letter-spacing: -2px;
+}
+.search-container {
+            width: 90%;
+            max-width: 580px;
+            height: 44px;
+            border-radius: 22px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            padding: 0 15px;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+
+        }
+        .search-input {
+            border: none;
+            outline: none;
+            flex-grow: 1;
+            font-size: 16px;
+            color: #202124;
+            padding: 0 10px;
+        }
+         .shortcuts {
+            display: flex;
+            margin-top: 35px;
+            gap: 20px;
+        }
+
+        .shortcut-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #E0E0E0;
+            font-size: 13px;
+        }
+
+        .shortcut-icon-circle {
+            background-color: rgba(255, 255, 255, 0.1);
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 20px;
+        }
+
+        .customize-btn {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4A4A4A;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
